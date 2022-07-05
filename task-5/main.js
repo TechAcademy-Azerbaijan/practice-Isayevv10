@@ -4,6 +4,10 @@ prompt.start();
 
 prompt.get('input', function (err, result) {
   
-    // Write code here
+    let a = result.input.split(' '); 
+    a.sort( (a,b) => {
+        return b - a;
+    })
+    console.log(a[0]);
   
 });
