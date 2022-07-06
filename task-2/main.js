@@ -4,7 +4,7 @@ prompt.start();
 
 prompt.get('input', function (err, result) {
   
-       let num = parseInt(result.input);
+        let num = parseInt(result.input);
         function prime(num) {
             if (num <= 1) { 
                 return "NO";
