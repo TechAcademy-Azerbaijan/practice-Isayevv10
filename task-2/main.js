@@ -7,14 +7,14 @@ prompt.get('input', function (err, result) {
         let num = parseInt(result.input);
         function prime(num) {
             if (num <= 1) { 
-                return "NO";
+                return "No";
             } else {
                 for (var i = 2; i < num; i++) {
                     if (num % i === 0) {
-                        return "NO"; 
+                        return "No"; 
                     }
                 }
-                return "YES";
+                return "Yes";
             }  
         }
         console.log(prime(num));
