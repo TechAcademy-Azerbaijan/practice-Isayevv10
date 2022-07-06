@@ -4,6 +4,7 @@ prompt.start();
 
 prompt.get('input', function (err, result) {
   
-    // Write code here
+    let number =parseInt(result.input)
+    console.log(parseInt(number/100)*100 + parseInt((number%100)/20)*30 + ((number%100)%20)*2);
   
 });
